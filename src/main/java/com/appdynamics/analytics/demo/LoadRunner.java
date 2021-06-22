@@ -57,7 +57,7 @@ public class LoadRunner {
         portalUrl = args[0];
         processorUrl = args[1];
         portalPort = 8080;
-        processorPort = 8080;
+        processorPort = 8083;
     }
     private static void callPortalAuthenticate(String portalUrl, int portalPort){
         try {
